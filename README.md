@@ -7,11 +7,19 @@ Interactive contents are found in the **Introduction** RMarkdown file.
 
 We are using the `lidR` package to process liDAR data from Puerto Rico.
 
+``` r
+# Code here
+```
+
 ## 2. Load LAS files
 
 The liDAR data consists of point clouds stored in `.las` (LAS) files.
 These can be loaded into `R` using the `lidR` function `readLAS()`. Use
 `readLAS()` to load in one of the `LAS` files from the data folder.
+
+``` r
+# Code here
+```
 
 ## 3. Plot LAS files
 
@@ -22,6 +30,10 @@ point cloud. Try plotting the point cloud you loaded. The argument
 default, the Z axis is used for color. Find what other attributes are
 available for plotting and change the attribute used for coloring the
 plot.
+
+``` r
+# Code here
+```
 
 ## Ground classification
 
@@ -69,6 +81,14 @@ With all the las files loaded, we can process them in bulk. Use any
 method you like to perform ground classification on all the las files
 loaded in `las.list`.
 
+``` r
+# Code here
+```
+
 Use the `plot_cross_class` function you tried out above to plot cross
 sections for each LAS file. Save the plot of each LAS file as a .png
 with a systematic name. You could use the function `ggsave()` for this.
+
+``` r
+# Code here
+```
