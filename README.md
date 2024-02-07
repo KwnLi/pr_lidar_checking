@@ -13,7 +13,7 @@ We are using the `lidR` package to process liDAR data from Puerto Rico.
 
 ## 2. Load LAS files
 
-The liDAR data consists of point clouds stored in `.las` (LAS) files.
+The liDAR data consists of point clouds stored in .las (LAS) files.
 These can be loaded into `R` using the `lidR` function `readLAS()`. Use
 `readLAS()` to load in one of the `LAS` files from the data folder.
 
@@ -64,7 +64,7 @@ source("functions/function_plotcross.r")
 
 We have many LAS files to process, so it is advantageous to do some
 automation. Use the `list.files()` function to read in the names of all
-the `.las` files in the data folder and store them in the vector
+the .las files in the data folder and store them in the vector
 `las.names`. Load these file names into the `R` session using a loop and
 store them in a list object (`las.list`)
 
