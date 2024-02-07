@@ -7,7 +7,11 @@ output: github_document
 knitr::opts_chunk$set(eval = FALSE)
 ```
 
-Interactive contents are found in the **Introduction** RMarkdown file.
+## Instructions
+
+These are tasks that are representative of the project. To work on these tasks, download the entire repository using the green "<>Code" button in the upper right ("Download ZIP"). Unzip the file and open the Rproj file to start an RStudio session (R and RStudio must be installed).
+
+Below are the tasks. Interactive contents are found in the **Introduction** RMarkdown file.
 
 ## 1. Load `lidR` package
 
